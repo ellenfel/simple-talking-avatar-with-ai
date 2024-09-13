@@ -22,7 +22,7 @@ const prompt = ChatPromptTemplate.fromMessages([
 ]);
 
 const model = new ChatOpenAI({
-  openAIApiKey: process.env.OPENAI_API_KEY || "-",
+  openAIApiKey: process.env.OPENAI_API_KEY || "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",
   modelName: process.env.OPENAI_MODEL || "davinci",
   temperature: 0.2,
 });
